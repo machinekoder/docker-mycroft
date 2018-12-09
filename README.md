@@ -70,7 +70,7 @@ You can interact with the CLI of the container by running the following command,
 docker exec -it mycroft /bin/bash
 ```
 
-Once in the container you can do `./start-mycroft.sh cli` to get a interactive CLI to interact with mycroft if needed.
+Once in the container you can do `source venv-active.sh` and `./start-mycroft.sh cli` to get a interactive CLI to interact with mycroft if needed.
 
 You can hit ctrl + c to exit the cli.
 
